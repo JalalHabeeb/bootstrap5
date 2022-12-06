@@ -20,7 +20,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
       <div class="container">
         <a href="#" class="navbar-brand">Frontend Bootcamp</a>
         <button
@@ -87,7 +87,7 @@
     <!-- Boxes -->
     <section class="p-5">
       <div class="container">
-        <div class="row text-center">
+        <div class="row text-center g-4">
           <div class="col-md">
             <div class="card bg-dark text-light">
               <div class="card-body text-center">
@@ -130,6 +130,192 @@
                   eaque est officiis, similique iste error.
                 </p>
                 <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learn -->
+    <section id="learn" class="p-5">
+      <div class="container">
+        <div class="row aligh-items-center justify-content-between">
+          <div class="col-md">
+            <img class="img-fluid" src="imgs/fundamentals.svg" alt="" />
+          </div>
+          <div class="col-md p5">
+            <h2>Learn the fundimentals</h2>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+              illum nihil quod accusamus incidunt maiores doloremque at, sunt
+              ipsum ullam!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              officia minima autem rem facilis modi?
+            </p>
+            <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i>Read more
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="learn" class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row aligh-items-center justify-content-between">
+          <div class="col-md p5">
+            <h2>Learn React</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+              illum nihil quod accusamus incidunt maiores doloremque at, sunt
+              ipsum ullam!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              officia minima autem rem facilis modi?
+            </p>
+            <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i>Read more
+            </a>
+          </div>
+          <div class="col-md">
+            <img class="img-fluid" src="imgs/react.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Question Acordion -->
+    <section class="p-5" id="questions">
+      <div class="container">
+        <h2 class="text-center mb-4">Ferquently asked questions</h2>
+        <div class="accordion accordion-flush" id="questions">
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-1"
+              >
+                Where are you located?
+              </button>
+            </h2>
+            <div
+              id="question-1"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                first item's accordion body.
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-2"
+              >
+                How much dos it cost to attend?
+              </button>
+            </h2>
+            <div
+              id="question-2"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                first item's accordion body.
+              </div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-3"
+              >
+                What do I need to know?
+              </button>
+            </h2>
+            <div
+              id="question-3"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                first item's accordion body.
+              </div>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-4"
+              >
+                How do I sign up?
+              </button>
+            </h2>
+            <div
+              id="question-4"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                first item's accordion body.
+              </div>
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-5"
+              >
+                Whould you help me find a job?
+              </button>
+            </h2>
+            <div
+              id="question-5"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                first item's accordion body.
               </div>
             </div>
           </div>
